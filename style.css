@@ -1,0 +1,62 @@
+body{
+    background-color: pink
+}
+
+
+
+.message{
+    /* position: relative; */
+    margin-top: 3rem;
+}
+.title{
+    color: black;
+    font-size: 3.5rem;
+    text-align: center;
+    justify-content: center;  
+}
+
+
+.image_before{
+    display: flex;
+    justify-content: center;
+}
+
+.button_container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top:20px;
+}
+
+.yes_button{
+    background: black;
+    color: white;
+    font-size: 1.75rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-right: 100px;
+    position: absolute;
+}
+
+.image_after{
+    display: none;
+    justify-content: center;
+}
+
+
+.no_button{
+    background: black;
+    margin-left: 135px;
+    color: white;
+    font-size: 1.75rem;
+    border-radius: 10px;
+    position: absolute; 
+    padding: 0.4rem;
+}
+
+.yes_button:hover{
+    cursor: pointer;
+    font-size: 30px;
+}
+
+
